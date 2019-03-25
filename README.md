@@ -23,7 +23,7 @@ You can download/clone the repository. Open a command line (Windows) and run the
 <code>
    converter.bat "absolute path to folder containing the *.stl and *.csv files"
  </code>
- to combine the stl file with the vector information file. It should be a face based vector information. To compute the 5 components
+ to combine the stl file with the vector information file. It should be a face based vector information (see formatting below). To compute the 5 components
  Hodge decomposition, use the following command.
  <code>
    hodge.bat "absolute path to folder containing the jvx files"

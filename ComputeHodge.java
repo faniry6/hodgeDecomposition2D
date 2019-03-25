@@ -24,7 +24,7 @@ import jv.object.PsDebug;
  *
  */
 public class ComputeHodge {
-	protected static String PATH_FOLDER="D:\\faniry\\Project\\ECMath\\model\\Converter\\";
+	protected static String PATH_FOLDER;
 	protected static String ERROR = "ERROR::";
 	protected static String WARNING = "WARNING::";
 	// Limit number of loaded geometry to avoid Java heap space

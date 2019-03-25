@@ -100,24 +100,6 @@ public class Converter_starccm_to_jvx_gz {
 		
 		System.out.println("Compute mapping...");
 		
-//		for(int i=0;i<MAXIMUM_NO_GEOM;i++){
-//			// check compatibility
-//			if(!compatible(geom[i],vec_geom[i])){
-//				System.out.println("Geometry "+i+" and vector "+i+" are not compatible");
-//				continue;
-//			}
-//			// compute mapping
-//			notMapped = mapVectorFieldUsingCentroid(vec_geom[i], geom[i], true);
-////			if(notMapped.getSize() == geom[i].getNumElements())
-////				break;
-//			System.out.println("SAVING(JVX)::Geometry "+i);
-//			(new PgLoader()).saveGeometry(new PgGeometry[]{(PgGeometry)geom[i]}, PATH_FOLDER+PsUtil.getFileBaseName(listOfStls[i])+".jvx");
-//			if(notMapped.getSize() != 0){ 
-//				System.out.println("WARNING::Geometry "+i+" has zero vector" );
-//			}else
-//				System.out.println("SUCCESS::Geometry "+i);
-//		}
-		
 		if(m_threadPoolShutDown) {
 			m_threadPool = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors()-1);
 			m_pool = new ExecutorCompletionService<Boolean>(m_threadPool);

@@ -1,6 +1,6 @@
 # Introduction
 
-This repository is the main function to compute a 5 component Hodge decomposition for surface meshes. It is mainly written towards application for aorta wall shear stress analysis. By little changes, it could be easily adapted for other kind of surfaces. The official main script and several models are published here
+This repository is the main function to compute a  Hodge decomposition for surface meshes (from 3 to 5 components). It is mainly written towards application for aorta wall shear stress analysis. By little changes, it could be easily adapted for other kind of surfaces. The official main script and several models are published here
 
 https://dryad.figshare.com/articles/Hodge-Morrey-Friedrich_decomposition_for_WSS_vector_field/7496762/1
 

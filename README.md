@@ -30,6 +30,9 @@ You can download/clone the repository. Open a command line (Windows) and run the
   </code>
 The squared L^2-norms  of all decomposition will be then saved in the same folder as the input file into csv file.
 
+# Test
+
+There is an example test in <code>./test/fromStarrm</code> where you could find an exmple file to see how the formating of the vector looks like
 # Troubleshouting
 
 - Make sure that the correct jvx is mapped. 

@@ -34,7 +34,7 @@ import jvx.geom.PwModel;
 
 
 /**
- * Convert a starccm+ data to jvx.gz data
+ * Convert a starccm+ data to jvx data
  * @author Faniry Razafindrazaka
  * @created 23.03.2019
  */

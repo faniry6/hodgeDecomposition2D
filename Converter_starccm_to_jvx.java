@@ -36,11 +36,11 @@ import jvx.geom.PwModel;
 /**
  * Convert a starccm+ data to jvx.gz data
  * @author Faniry Razafindrazaka
+ * @created 23.03.2019
  */
 public class Converter_starccm_to_jvx_gz {
 	// Folder containing the files
-//	protected static String PATH_FOLDER="D:\\Faniry\\_library\\Hodge\\test\\fromStarccm\\";
-	protected static String PATH_FOLDER="D:\\faniry\\Project\\ECMath\\model\\Converter\\";
+	protected static String PATH_FOLDER;
 	// Limit number of loaded geometry to avoid Java heap space
 	protected static int 	MAXIMUM_NO_GEOM = 20;
 	// Boolean to check if interpolation is needed

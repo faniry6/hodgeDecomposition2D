@@ -12,6 +12,10 @@ https://royalsocietypublishing.org/doi/10.1098/rsos.181970
 
 The two source files contain a converter and a hodge computation. It is aimed for multithread use with large sized model. The converter is used to take an stl + csv (vector defined at the barycentric position of the faces) and convert them into jvx.
 
+# Extern libraries
+
+The code is using an external jar libraries (www.javaview.de) which are licenced but free for research purpose
+
 # How to use
 
 You can download/clone the repository. Open a command line (Windows) and run the following
